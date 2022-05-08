@@ -1,5 +1,9 @@
 package org.springframework.samples.petclinic.sfg;
 
+import org.springframework.context.annotation.Profile;
+import org.springframework.stereotype.Component;
+
+@Component
 public class LaurelWordProducer implements WordProducer{
 
     @Override
